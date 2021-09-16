@@ -1,22 +1,42 @@
-body {
-    background: salmon;
+* {
+    font-family: Papyrus, 'Times New Roman', Times, serif;
 }
 
-header {
-    background-color: aquamarine;
-    z-index: 1;
+body {
+    background: rgba(173, 143, 139, 0.989);
+    text-align: center;
+
 }
 
 h1 {
     text-align: center;
+    padding-top: 30px;
+}
+
+nav {
+    text-align: right;
+    background-color: rgb(247, 193, 135);
+    height: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 10px solid red;
+    color: whitesmoke;
+}
+
+header {
+    border-bottom: 10px solid chocolate;
 }
 
 li {
     display: inline;
-    float: right;
     padding: 10px;
+    /* color: white; */
 }
 
 img {
-    padding: 0, auto;
+    height: 300px;
+    padding: 10px;
 }
+

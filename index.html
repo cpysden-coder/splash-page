@@ -9,6 +9,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
         <meta name="description" content="">
+        <!-- line below is required for using media queries -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
     </head>
@@ -16,40 +17,58 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <nav>
+            <ul>
+                <li><a href="#">Github</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
         <header>
-            <nav>
-                <ul>
-                    <li><a href="#">Github</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+            <h1>My New Website</h1>
+            <h2>The Good Ship Seneca</h2>
         </header>
-
+        
         <main>
+            <img src="./seneca.jpg" alt="1958 Chris Craft Constellation"/>
 
-            
-            <section class="intro">
-                <h1>My New Website</h1>
-                <img src="https://via.placeholder.com/200" alt="Chris"/>
-                
-            </section>
-            
-            <section class="aboutme">
-                <p>something about me</p>
-            </section>
+            <pre>
+                Boat Name: Seneca Year Built: 1958 
+                Designer: Chris Craft 
+                Builder: Chris Craft 
+                Length: 34’7” 
+                Beam: 11.1”
+                Draft: 30”
+                Displacement: 10,755 – 11,205 Lbs 
+                Fuel Capacity: 150 gallons
+                Power: Twin 350Q Chris Craft Engines
+                Total Horsepower: 470 hp
+                Cruise Speed: 14 Kts
+                Top Speed: 22 Kts
+                Props: 20 x 24, 4 Blade
+                Shaft Size: 1-3/8” Stainless Steel
+                Hull Material: Mahogany 
+                Cabin/Transom: Mahogany
+                Decks: Teak Cabin Top & Hull 
+                Paint: Z-Spar 100 Bottom 
+                Paint: Petit Copper Bronze 
+                Owner: Chris Pysden
+            </pre>
 
             <section>
                 <h2>Contact Me</h2>
                 <!-- Form -->
-                <div>
+                <form>
                     <label for="username">Name: <abbr title="required" aria-label="required">*</abbr></label>
                     <input id="username" type="text" name="username">
-                </div>
-                <div>
+                    <br>
                     <label for="email">Email: <abbr title="required" aria-label="required">*</abbr></label>
                     <input id="email" type="text" name="email">
-                </div>
+                    <br>
+                    <br>
+                    <button>Send</button>
+                </form>
             </section>
             
         </main>
